@@ -118,6 +118,7 @@ body{
 .side-bar .storage .storage-text .percent{
     font-size: 12px;
     color: rgba(255, 255, 255,.6);
+    font-weight: normal;
 }
 .side-bar .storage .storage-bar{
     width: 100%;
@@ -133,3 +134,140 @@ body{
     background-color: #f8d9af;
     display: block;
 }
+/* CONTENT */
+.content{
+    flex: 1;
+    display: flex;
+}
+.main-content{
+    flex: 1;
+    padding: 32px 65px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+.nav-bar-input{
+    height: 24px;
+    width: 340px;
+    padding: 10px;
+    border-radius: 44px;
+    border: none;
+    background-color: rgba(202, 206, 232, 0.14);
+    font-size: 14px;
+}
+.nav-bar-input::placeholder{
+    color: #8f94b8;
+}
+.content .main-content .inner-box{
+    margin-top: 12px;
+    margin-bottom: 60px;
+}
+.content .main-content .content-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f6f7fa;
+    padding-bottom: 6px;
+}
+.content .main-content .content-title h6{
+    font-size: 20px;
+    color: #0e1b42;
+    font-weight: 500;
+}
+.content .main-content .content-title a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #8186ad;
+}
+.content .main-content .content-title a:hover{
+    color: #707494;
+}
+.projects{
+    display: flex;
+    margin: 0 -7px;
+}
+.box{
+    height: 145px;
+    flex: 1;
+    margin: 0 7px;
+    background-color: #f7f8fb;
+    border-radius: 6px;
+}
+.inner-box .empty-box a{
+    display: flex;
+    margin: 0 7px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #8186ad;
+    border: 2px dotted #e4e8f6;
+    border-radius: 6px;
+}
+.inner-box .empty-box a{
+    color:  #707494
+}
+.inner-box .empty-box a i{
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    background-color: #f7f8fb;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content .side-content{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #f6f7fa;
+    padding: 32px 0;
+}
+.content .side-content .profile{
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+}
+.content .side-content .profile img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.content .side-content .profile span{
+    padding-left: 12px;
+}
+
+
+
+
+
