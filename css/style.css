@@ -118,6 +118,7 @@ body{
 .side-bar .storage .storage-text .percent{
     font-size: 12px;
     color: rgba(255, 255, 255,.6);
+    font-weight: normal;
 }
 .side-bar .storage .storage-bar{
     width: 100%;
@@ -133,3 +134,50 @@ body{
     background-color: #f8d9af;
     display: block;
 }
+/* CONTENT */
+.content{
+    height: 100%;
+    display: flex;
+    padding: 35px 64px 325px 64px;
+}
+.main-content{
+    flex: 1;
+}
+.nav-bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-input{
+    height: 18px;
+    width: 252px;
+    padding: 10px;
+    border-radius: 26px;
+    border: none;
+    background-color: rgba(231, 229, 229, 0.6);
+}
+.content .side-content{
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(231, 229, 229,);
+}
+.content .side-content .profile{
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+}
+.content .side-content .profile img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.content .side-content .profile span{
+    padding-left: 12px;
+}
+
+
+
+
+
