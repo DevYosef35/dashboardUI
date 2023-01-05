@@ -194,6 +194,10 @@ body{
     background-color: #f7f8fb;
     border-radius: 6px;
 }
+.box i{
+    font-size: 20px;
+    color: #f8d9af;
+}
 .inner-box .empty-box a{
     display: flex;
     margin: 0 7px;
